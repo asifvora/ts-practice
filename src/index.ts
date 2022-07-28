@@ -1,13 +1,18 @@
-export class Log {
-    static success(msg: string) {
-        console.log(`%c ${msg}`, 'color: green');
-    }
+import { Employee } from "./models/Employee";
 
-    static danger(msg: string) {
-        console.log(`%c ${msg}`, 'color: red');
-    }
+const emp = new Employee("asif", 500);
+console.log({ emp });
 
-    static info(msg: string) {
-        console.log(`%c ${msg}`, 'color: black; background: yellow');
-    }
+export default class Log {
+  static success(msg: string) {
+    console.log(`%c ${msg}`, "color: green");
+  }
+
+  static danger(msg: string) {
+    console.log(`%c ${msg}`, "color: red");
+  }
+
+  static info(msg: string) {
+    console.log(`%c ${msg}`, "color: black; background: yellow");
+  }
 }
