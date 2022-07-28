@@ -1,0 +1,31 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "description": "ts-practice",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asifvora/ts-practice.git"
+  },
+  "keywords": [
+    "ts",
+    "typescript"
+  ],
+  "author": "Asif Vora <asifvora0@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asifvora/ts-practice/issues"
+  },
+  "homepage": "https://github.com/asifvora/ts-practice#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
